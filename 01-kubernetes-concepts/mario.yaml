@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mario
+spec:
+  containers:
+  - name: mario
+    image: mario
+    ports:
+    - containerPort: 80
