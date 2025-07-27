@@ -1,0 +1,7 @@
+mysql:
+  pvc:
+    storage: 10Gi  # Je veux 10Gi au lieu des 2Gi par défaut
+
+phpbb:
+  service:
+    type: NodePort  # Je veux pouvoir y accéder depuis l'extérieur
